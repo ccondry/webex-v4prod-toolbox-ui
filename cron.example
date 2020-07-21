@@ -1,0 +1,1 @@
+*/1 * * * * /bin/sh -c 'cd /opt/dcloud/webex-v4prod-toolbox-ui && ./update.sh' 2>&1 | /usr/bin/logger -t cron-update-webex-v4prod-toolbox-ui
