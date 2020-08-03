@@ -87,7 +87,7 @@ export default {
     agent () {
       return {
         picture: 'https://mm.cxdemo.net/static/images/cumulus/common/author1.png',
-        username: 'sjeffers' + this.user.id + '@cc.dc-01.com',
+        username: 'sjeffers' + this.user.id + '@cc1.dc-01.com',
         password: 'C1sco12345',
         extension: '1080' + this.user.id,
         name: 'Sandra Jefferson',
@@ -97,7 +97,7 @@ export default {
     supervisor () {
       return {
         picture: 'https://mm.cxdemo.net/static/images/cumulus/common/author3.png',
-        username: 'rbarrows' + this.user.id + '@cc.dc-01.com',
+        username: 'rbarrows' + this.user.id + '@cc1.dc-01.com',
         password: 'C1sco12345',
         extension: '1082' + this.user.id,
         name: 'Rick Barrows',
