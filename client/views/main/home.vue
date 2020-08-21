@@ -63,7 +63,7 @@
           <b-field>
             <p>
               Your account is currently marked for provisioning. Please allow 
-              24-48 hours for your account to be ready. We will notify you via
+              10-15 minutes for your account to be ready. We will notify you via
               Webex Teams when your account is ready, and this page will
               change to show your account details.
             </p>
