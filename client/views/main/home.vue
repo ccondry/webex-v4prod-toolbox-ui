@@ -131,7 +131,7 @@
               &nbsp;
               <span style="font-size: 1.3em;">
                 Or for quick access, call <strong>{{ demoNumber }}</strong>
-                Ext. <strong>{{ model.queueId }}</strong>
+                <!-- Ext. <strong>{{ model.queueId }}</strong> -->
                 </span>
               <b-field style="margin-top: 6px;">
                 <b-checkbox v-model="showMore">Show More</b-checkbox>
@@ -414,28 +414,29 @@ export default {
       }
     },
     demoNumber () {
-      try {
-        switch (this.model.vertical) {
-          case 'city':
-          case 'city-no-bot':
-            return this.dcloudSession.dids.DID5
-          case 'healthcare':
-          case 'healthcare-no-bot':
-            return this.dcloudSession.dids.DID9
-          case 'utility':
-          case 'utility-no-bot':
-            return this.dcloudSession.dids.DID10
-          case 'finance':
-          case 'finance-no-bot':
-            return this.dcloudSession.dids.DID7
-          case 'travel':
-          case 'travel-no-bot':
-            return this.dcloudSession.dids.DID8
-          default: return this.dcloudSession.dids.DID7
-        }
-      } catch (e) {
-        return ''
-      }
+      return '+1 469-270-6769'
+      // try {
+      //   switch (this.model.vertical) {
+      //     case 'city':
+      //     case 'city-no-bot':
+      //       return this.dcloudSession.dids.DID5
+      //     case 'healthcare':
+      //     case 'healthcare-no-bot':
+      //       return this.dcloudSession.dids.DID9
+      //     case 'utility':
+      //     case 'utility-no-bot':
+      //       return this.dcloudSession.dids.DID10
+      //     case 'finance':
+      //     case 'finance-no-bot':
+      //       return this.dcloudSession.dids.DID7
+      //     case 'travel':
+      //     case 'travel-no-bot':
+      //       return this.dcloudSession.dids.DID8
+      //     default: return this.dcloudSession.dids.DID7
+      //   }
+      // } catch (e) {
+      //   return ''
+      // }
     },
     disableSave () {
       return false
