@@ -1,6 +1,6 @@
 {
   "name": "webex-v4prox-toolbox-ui",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "description": "A dCloud Collaboration Toolbox for configuring the Webex Contact Center v4 demo for the mm-brand.cxdemo.net demo site.",
   "main": "src/index.js",
   "scripts": {
